@@ -107,13 +107,13 @@
           <nav class="header__nav">
             <div class="nav nav--opened nav--nojs">
               <ul class="nav__list">
-                <li class="nav-item">
+                <li class="nav__item">
                   <a href="index.html">главная</a>
                 </li>
-                <li class="nav-item nav-item--current">
-                  <a href="catalog.html">каталог продукции</a>
+                <li class="nav__item">
+                  <a class="nav__item--current" href="catalog.html">каталог продукции</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav__item">
                   <a href="selectprogramm.html">подбор программы</a>
                 </li>
               </ul>
@@ -496,14 +496,8 @@
         </div>
       </div>
       <div class="page-main__map">
-        <section class="map">
-          <script
-            class="test"
-            type="text/javascript"
-            charset="utf-8"
-            async
-            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A825841080629a697202715738fa929824165657cb5748d632bce74811940e05e&amp;width=100%&amp;height=362&amp;lang=ru_RU&amp;scroll=true"
-          ></script>
+        <section>
+          <div id="map" class="map"></div>
         </section>
       </div>
     </main>
