@@ -16,8 +16,8 @@
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     />
-     <!-- Pixel Glass -->
-<!-- <style>
+    <!-- Pixel Glass -->
+    <!-- <style>
   HTML {
     background-repeat: no-repeat;
     background-position:  50% 0;
@@ -41,7 +41,7 @@
 </style>
 <link href="../node_modules/pixel-glass/styles.css" rel="stylesheet">
 <script src="../node_modules/pixel-glass/script.js"></script> -->
-<!-- // Pixel Glass -->
+    <!-- // Pixel Glass -->
   </head>
   <body class="page-body page-body--index">
     <header class="page-body__header">
@@ -141,10 +141,10 @@
                 <li class="nav__item nav__item--index">
                   <a class="nav__item--current">главная</a>
                 </li>
-                <li class="nav__item nav__item--index">
+                <li class="nav__item  nav__item--index">
                   <a href="catalog.html">каталог продукции</a>
                 </li>
-                <li class="nav__item nav__item--index">
+                <li class="nav__item  nav__item--index">
                   <a href="selectprogramm.html">подбор программы</a>
                 </li>
               </ul>
@@ -156,7 +156,9 @@
     <main class="page-main">
       <div class="page-main__lead">
         <section class="lead">
-          <h1 class="title lead__title">Функциональное<br />питание для котов</h1>
+          <h1 class="title lead__title">
+            Функциональное<br />питание для котов
+          </h1>
           <p class="lead__text">занялся собой? займись котом!</p>
           <picture>
             <source
@@ -194,7 +196,7 @@
         <div class="direction-programm__wrapper">
           <section class="direction-programm">
             <ul class="direction-programm__list">
-              <div class="direction-programm__item">
+              <li class="direction-programm__item">
                 <h2
                   class="direction-programm__title direction-programm__title--slim"
                 >
@@ -206,8 +208,8 @@
                   питомцу сбросить лишний вес.
                 </p>
                 <a class="direction-programm__link">каталог slim</a>
-              </div>
-              <div class="direction-programm__item">
+              </li>
+              <li class="direction-programm__item">
                 <h2
                   class="direction-programm__title direction-programm__title--pro"
                 >
@@ -221,7 +223,7 @@
                   мышцы!
                 </p>
                 <a class="direction-programm__link">каталог pro</a>
-              </div>
+              </li>
             </ul>
           </section>
         </div>
@@ -303,17 +305,13 @@
                   >
                     5 КГ
                   </h3>
-                  <p
-                    class="example__item--text example__item-text--weight"
-                  >
+                  <p class="example__item--text example__item-text--weight">
                     снижение веса
                   </p>
                 </li>
                 <li class="example__item example__item--days">
                   <h3 class="example__item--header">60 ДНЕЙ</h3>
-                  <p
-                    class="example__item--text example__item-text--days"
-                  >
+                  <p class="example__item--text example__item-text--days">
                     затрачено времени
                   </p>
                 </li>
@@ -362,11 +360,7 @@
                 />
               </picture>
               <span class="example__slider">
-                <p
-                  class="example__silder-text example__silder-before example__slider-text--current"
-                >
-                  было
-                </p>
+                <p class="example__silder-text example__silder-before example__slider-text--current">было</p>
                 <p class="example__slider-text example__silder-after">стало</p>
               </span>
             </div>
@@ -560,10 +554,11 @@
               </a>
             </li>
           </ul>
-          <ul class="footer__copyright">
+          <span class="footer__copyright">
             <a class="footer__copyright--text">HTML Academy</a>
             <a class="footer__copyright--link">
-              <svg class="footer__copyright--icon"
+              <svg
+                class="footer__copyright--icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="27"
                 height="34"
@@ -582,7 +577,7 @@
                 </defs>
               </svg>
             </a>
-          </ul>
+          </span>
         </div>
       </div>
     </footer>
