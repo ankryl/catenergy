@@ -2033,6 +2033,7 @@ li .button--show-else:active {
   font-size: 14px;
   margin-top: 39px;
   line-height: 18px;
+  margin-bottom: 0;
 }
 @media (min-width: 768px) {
   .cat-data__legend {
@@ -2562,8 +2563,8 @@ ul .nav__item--index::before {
   position: absolute;
   left: -45px;
   top: -7px;
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   border: 1px solid #CDCDCD;
   border-radius: 50%;
 }
@@ -2584,10 +2585,10 @@ ul .nav__item--index::before {
 .filter-input-radio:checked + label::after {
   content: "";
   position: absolute;
-  top: 0px;
-  left: -36px;
-  width: 15px;
-  height: 15px;
+  top: 1px;
+  left: -37px;
+  width: 14px;
+  height: 14px;
   background-color: #68B738;
   border-radius: 50%;
 }
