@@ -1636,6 +1636,7 @@ fieldset {
 }
 
 .page__title--catalog {
+  position: relative;
   padding-top: 27px;
   padding-bottom: 7px;
 }
@@ -1659,7 +1660,7 @@ fieldset {
     position: absolute;
     pointer-events: none;
     height: 1px;
-    width: 768px;
+    width: 788px;
     background-color: #e6e6e6;
     bottom: -25px;
     left: -256px;
@@ -1669,7 +1670,7 @@ fieldset {
 @media (max-width: 767px) {
   .page__title--catalog::before {
     left: -40px;
-    bottom: 456px;
+    bottom: -35px;
   }
 }
 
@@ -1836,7 +1837,7 @@ li .button--show-else:hover {
 }
 
 li .button--show-else:active {
-  color: 34, 34, 34;
+  color: RGBA(34, 34, 34, 0.3);
 }
 
 .additional-products__head-title {
