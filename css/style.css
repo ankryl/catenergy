@@ -1550,7 +1550,7 @@ fieldset {
   .catalog__list {
     flex-wrap: wrap;
     column-gap: 60px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     justify-items: center;
     flex-direction: row;
     padding-top: 0;
@@ -1561,6 +1561,7 @@ fieldset {
 @media (min-width: 1440px) {
   .catalog__list {
     padding-bottom: 0;
+    column-gap: 80px;
   }
 }
 
